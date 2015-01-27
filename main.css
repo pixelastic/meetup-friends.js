@@ -1,0 +1,11 @@
+.dividedList li {
+  position:relative;
+}
+.friend-action {
+  height:40px;
+  position:absolute;
+  right:-150px;
+  top:50%;
+  margin-top:-20px;
+}
+

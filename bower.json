@@ -1,0 +1,9 @@
+{
+  "name": "meetup-friends",
+  "version": "0.1.0",
+  "dependencies": {
+    "lodash": "~3.0.0",
+    "zepto": "~1.1.6",
+    "parse-js-sdk": "git@github.com:albemuth/parse-js-sdk.git#~1.3.1"
+  }
+}

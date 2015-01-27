@@ -1,0 +1,42 @@
+{
+  "name": "meetup-friends",
+  "version": "0.0.0",
+  "description": "Improve meetup.com experience by adding a friendlist.",
+  "main": ".",
+  "dependencies": {
+    "karma": "~0.12.28"
+  },
+  "devDependencies": {
+    "chai": "~1.10.0",
+    "chai-jquery": "~2.0.0",
+    "karma": "~0.12.28",
+    "karma-chai": "~0.1.0",
+    "karma-chai-jquery": "~1.0.0",
+    "karma-chai-sinon": "~0.1.4",
+    "karma-fixture": "~0.2.1-1",
+    "karma-html2js-preprocessor": "~0.1.0",
+    "karma-jquery": "~0.1.0",
+    "karma-mocha": "~0.1.10",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "karma-sinon": "~1.0.4",
+    "mocha": "~2.0.1",
+    "sinon": "~1.12.2",
+    "sinon-chai": "~2.6.0"
+  },
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pixelastic/meetup-friends"
+  },
+  "keywords": [
+    "autocomplete",
+    "search"
+  ],
+  "author": "pixelastic",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/pixelastic/meetup-friends/issues"
+  }
+}

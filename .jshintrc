@@ -1,0 +1,37 @@
+{
+  "browser": true,
+  "camelcase": true,
+  "curly": true,
+  "expr": true,
+  "immed": true,
+  "indent": 2,
+  "latedef": "nofunc",
+  "newcap": true,
+  "node": true,
+  "plusplus": false,
+  "quotmark": "single",
+  "trailing": true,
+  "globals": {
+    "_": true,
+    "$": false,
+    "fixture": false,
+    "expect": false,
+    "sinon": false,
+    "afterEach": false,
+    "beforeEach": false,
+    "describe": false,
+    "it": false,
+    "Steppe": false,
+    "jQuery": false,
+    "Zepto": false
+  },
+  "bitwise": true,
+  "eqeqeq": true,
+  "forin": true,
+  "freeze": true,
+  "noarg": true,
+  "nonew": true,
+  "undef": true,
+  "unused": true
+}
+
