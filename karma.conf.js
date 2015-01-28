@@ -25,6 +25,7 @@ module.exports = function(config) {
       'bower_components/parse-js-sdk/lib/parse.min.js',
       'lib/meetup-friends.js',
       'test/helpers.js',
+      // 'test/fixtures/css/*.css',
       'test/fixtures/index.html',
       'test/*_test.js'
     ],
@@ -32,7 +33,7 @@ module.exports = function(config) {
      * 1. HTML files must be converted to js strings
      **/
     preprocessors: {
-      'test/fixtures/index.html': 'html2js' /* 1 */
+      'test/fixtures/**/*.html': 'html2js' /* 1 */
     },
 
     // list of files to exclude

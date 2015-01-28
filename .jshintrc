@@ -21,7 +21,7 @@
     "beforeEach": false,
     "describe": false,
     "it": false,
-    "Steppe": false,
+    "MeetupFriends": false,
     "jQuery": false,
     "Zepto": false
   },
