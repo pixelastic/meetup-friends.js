@@ -51,13 +51,13 @@ describe('MeetupFriends', function() {
 
   describe('.getAllMembersGoing()', function() {
     it('should get all the elements', function() {
-      // Given
+      // Given;
 
-      // When
+      // When;
       var actual = MF.getAllMembersGoing();
 
       // Then
-      expect(actual.length).to.equal(120);
+      expect(actual.length).to.equal(2);
 
     });
   });
