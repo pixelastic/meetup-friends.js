@@ -44,8 +44,8 @@ describe('MeetupFriends', function() {
       var actual = MF.getMemberFromElement(element);
 
       // Then
-      expect(actual).to.contain.keys('memberId');
-      expect(actual).to.contain.keys('memberName');
+      expect(actual).to.contain.keys('id');
+      expect(actual).to.contain.keys('name');
     });
   });
 
@@ -59,6 +59,22 @@ describe('MeetupFriends', function() {
       // Then
       expect(actual.length).to.equal(2);
 
+    });
+  });
+
+  describe('.getElementFromMember()', function() {
+    it('should return the li element holding the member', function() {
+      // Given
+      var input = {
+        id: 46827552
+      };
+
+      // When
+      var actual = $j(MF.getElementFromMember(input))[0];
+
+      // Then
+      expect(actual.tagName).to.equal('LI');
+      expect(MF.getMemberIdFromElement(actual)).to.equal(input.id);
     });
   });
 });

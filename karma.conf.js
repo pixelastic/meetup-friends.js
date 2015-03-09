@@ -42,7 +42,7 @@ module.exports = function(config) {
     port: 9876,
     runnerPort: 9100,
     colors: true,
-    logLevel: config.LOG_INFO,
+    logLevel: config.LOG_ERROR,
     autoWatch: true,
     browsers: ['PhantomJS'],
     captureTimeout: 60000,

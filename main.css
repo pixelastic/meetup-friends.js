@@ -1,9 +1,9 @@
 .dividedList li {
   position:relative;
 }
-.friend-action {
+.meetup-friend-button {
   height:40px;
-  position:absolute;
+  position:absolute !important;
   right:-150px;
   top:50%;
   margin-top:-20px;
